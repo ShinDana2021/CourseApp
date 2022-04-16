@@ -194,7 +194,7 @@ function checkInput() {
         if (data) {
             item.parentElement.querySelector('.form-message').innerText = ""
             item.parentElement.querySelector('.label-update').classList.remove('invalid')
-            item.parentElement.querySelector('input').style.border="none"
+            item.parentElement.querySelector('input').style.borderColor="#4aa157"
         }
     })
 }
@@ -208,7 +208,7 @@ function checkInput2() {
         if (data) {
             item.parentElement.querySelector('.form-message-dk').innerText = ""
             item.parentElement.querySelector('.label').classList.remove('invalid')
-            item.parentElement.querySelector('input').style.border="none"
+            item.parentElement.querySelector('input').style.borderColor="#4aa157"
         }
     })
 }
