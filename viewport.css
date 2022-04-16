@@ -1,0 +1,43 @@
+@media (max-width: 740px) {
+    .wrapper {
+        width: initial;
+        margin: 100px 12px;
+    }
+
+    .icon-container {
+        display: none;
+    }
+    
+    .item-course >.container >.option-mobile {
+        display: block;
+        font-size: 1.6rem;
+        color: #4aa157;
+        padding: 10px 15px;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .icon-container-mobile {
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        display: none;
+    }
+    .icon-container-mobile >div {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #3c414c;
+    }   
+    .icon-container-mobile >div:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+    .icon-container-mobile >div > span {
+        font-size: 1.6rem;
+        flex: 1;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./viewport.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <h1>Course App</h1>
+            <div class="input-group">
+                <label class="label" for="input-1">Add Coures:</label>
+                <input oninput="checkInput2()" class="input-modifier" id="input-1" name="name" size="30" type="text" placeholder="Nhập khóa học muốn thêm" required>
+                <span class ="form-message-dk"></span>
+            </div>
+            <div class="input-group">
+                <label class="label" for="input-2">Decription:</label>
+                <input oninput="checkInput2()" class="input-modifier" id="input-2" name="decription" size="30" type="text" placeholder="Miêu tả khóa học muốn thêm" required>
+                <span class ="form-message-dk"></span>
+            </div>
+            <div class="btn-add">
+                <button id="Add">Thêm khóa học</button>
+            </div>
+        </div>
+
+
+        <div class="root"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
